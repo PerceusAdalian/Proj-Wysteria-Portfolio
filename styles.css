@@ -1,0 +1,57 @@
+/*
+    AUTHOR: 
+    PERCEUS WILLY (LEGAL ALIAS: DAVID WILLY-SEVILLE)
+    
+    CLIENT: 
+    HAYLEY JANE GARRET
+
+    COPYRIGHT:
+    © 2026 PERCEUS WILLY AND HAYLEY JANE GARRET. ALL RIGHTS RESERVED.
+
+    ABSTRACT:
+    This software and all associated source code, documentation, assets, and materials (collectively, the “Program”) are the intellectual property
+    of the respective copyright holders. Unauthorized copying, reproduction, modification, distribution, publication, sublicensing, or 
+    redistribution of the Program, in whole or in part, is strictly prohibited without prior written permission from the copyright holders.
+
+    Permission may be granted at the sole discretion of the copyright holders or, where applicable, the authorized Client, Hayley Jane Garret.
+
+    Styles intended for the Program are under sole copyright to and for client-author communications. 
+    REPLICATION IS PROHIBITED.
+
+    DATE OF INITIALIZATION:
+    AUGUST SEVENTH TWO-THOUSAND TWENTY-SIX (8/7/2026)
+*/
+
+/* GLOBAL STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* CONFIGURATION & COLOR PALETTE STYLES */
+
+:root {
+    --color-base: #191724;
+    --color-surface: #1f1d2e;
+    --color-overlay: #26233a;
+    --color-text: #e0def4;
+    --color-text-muted: #6e6a86;
+    
+    --color-primary: #eb6f92;
+    --color-secondary: #ebbcba;
+    --color-accent: #f6c177;
+
+    --color-divider: #31748f;
+    --color-header: #9ccfd8;
+    --color-focus: #c4a7e7;
+}
+
+
+
+/* NAVIGATION STYLES */
