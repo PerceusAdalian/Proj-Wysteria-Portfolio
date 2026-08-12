@@ -31,12 +31,12 @@
                         </a>
                     </li>
                     <li class="nav__link">
-                        <a href="#" class="nav__icon tooltip" data-tooltip="Obsidian Profile">
+                        <a href="https://publish.obsidian.md/khyoniecoffee-api/APIs/Index" class="nav__icon tooltip" data-tooltip="Obsidian Profile" target="_blank">
                             <i class="fa-brands fa-obsidian"></i>
                         </a>
                     </li>
                     <li class="nav__link">
-                        <a href="#contact" class="nav__icon tooltip" data-tooltip="Contact">
+                        <a href="#contact" class="nav__icon tooltip contact-trigger" data-tooltip="Contact">
                             <i class="fa-solid fa-image-portrait"></i>
                         </a>
                     </li>
@@ -48,17 +48,13 @@
     <main class="page-wrap">
         <section id="about" class="content">
             <div class="content__section">
-                <h1 class="section__title">About Me</h1>
-                <div class="divider"></div>
+                <h1 class="section__title">Welcome!</h1>
                 <div class="row">
                     <figure class="figure__">
                         <img src="./assets/img_hayley.svg" alt="" class="img__">
                     </figure>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    <p style="font-size: larger;">
+                        I showcase all of my past and ongoing projects here. <br><br>If you have any questions, please feel free to <br><span style="text-decoration: underline;"><a href="#contact" class="contact-trigger" style="color: #c4a7e7;">contact me</a></span>!
                     </p>
                 </div>
             </div>
@@ -67,47 +63,101 @@
             <div class="content__section">
                 <h1 class="section__title">Projects</h1>
                 <div class="divider"></div>
-                <div class="row">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <figure class="figure__">
-                        <img src="./assets/img_project.svg" alt="" class="img__">
-                    </figure>
-                </div>
-                <div class="external-links__wrapper">
-                    <div class="external-links">
-                        <a class="link tooltip" data-tooltip="Open GitHub"><i class="fa-brands fa-github"></i></a>
-                        <a class="link tooltip" data-tooltip="Jump to Index"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a class="link tooltip" data-tooltip="Jump to Obsidian"><i class="fa-brands fa-obsidian"></i></a>
+            </div>
+            <div class="content__section">
+                <div class="project-row">
+                    <div class="project__header">
+                        <h2 class="section__sub-title">Wisteria</h2>
+                        <div class="external-links">
+                            <a href="https://github.com/Khyonie/Wisteria" class="link tooltip" data-tooltip="Open in GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://publish.obsidian.md/khyoniecoffee-api/APIs/Wisteria/Getting+Started" class="link tooltip" data-tooltip="Open in Obsidian" target="_blank"><i class="fa-brands fa-obsidian"></i></a>
+                            <a href="https://publish.obsidian.md/khyoniecoffee-api/APIs/Index" class="link tooltip" data-tooltip="Open Project Index" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
                     </div>
+                    <p>
+                        A batteries-included declarative Java project manager and build tool, bringing the power of an IDE to CLI workflows.
+                        <br><span style="font-style: italic;">Inspired by Rust's Cargo.toml.</span>
+                    </p>
                 </div>
             </div>
             <div class="content__section">
-                <div class="row">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <figure class="figure__">
-                        <img src="./assets/img_project.svg" alt="" class="img__">
-                    </figure>
-                </div>
-                <div class="external-links__wrapper">
-                    <div class="external-links">
-                        <a class="link tooltip" data-tooltip="Open GitHub"><i class="fa-brands fa-github"></i></a>
-                        <a class="link tooltip" data-tooltip="Jump to Index"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-                        <a class="link tooltip" data-tooltip="Jump to Obsidian"><i class="fa-brands fa-obsidian"></i></a>
+                <div class="project-row">
+                    <div class="project__header">
+                        <h2 class="section__sub-title">Tidal</h2>
+                        <div class="external-links">
+                            <a href="https://github.com/Khyonie/Tidal" class="link tooltip" data-tooltip="Open in GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                            <a href="https://publish.obsidian.md/khyoniecoffee-api/APIs/Tidal/Getting+Started" class="link tooltip" data-tooltip="Open in Obsidian" target="_blank"><i class="fa-brands fa-obsidian"></i></a>
+                        </div>
                     </div>
+                    <p>
+                        Advanced Minecraft command parser with automatic argument validation, casting, and command discovery.
+                    </p>
+                </div>
+            </div>
+            <div class="content__section">
+                <div class="project-row">
+                    <div class="project__header">
+                        <h2 class="section__sub-title">Lilac</h2>
+                        <div class="external-links">
+                            <a href="https://github.com/Khyonie/Lilac" class="link tooltip" data-tooltip="Open in GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p>
+                        High-performance TOML library for Java. 
+                        Designed for configuration files, just like Tom intended.
+                    </p>
+                </div>
+            </div>
+            <div class="content__section">
+                <div class="project-row">
+                    <div class="project__header">
+                        <h2 class="section__sub-title">Anemone</h2>
+                        <div class="external-links">
+                            <a href="https://github.com/Khyonie/Anenome" class="link tooltip" data-tooltip="Open in GitHub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        </div>
+                    </div>
+                    <p>
+                        A general repository with code shared between my various projects.
+                    </p>
                 </div>
             </div>
         </section>
     </main>
+
+    <div id="contact" class="modal-overlay" aria-hidden="true">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close Contact Modal">&times;</button>
+            <h2 class="section__title">Contact Me</h2>
+            <p>
+                Fill this out real quick, and it'll redirect you to an email app of your choice. <br>I'll reach out when I have a moment!
+            </p>
+            <form id="contact-form" class="modal-form" novalidate>
+            <div class="modal-form__row">
+                    <input type="text" id="contact-first-name" class="modal-form__input" placeholder="First Name *" required>
+                    <input type="text" id="contact-last-name" class="modal-form__input" placeholder="Last Name *" required>
+                </div>
+                <input type="email" id="contact-email" class="modal-form__input" placeholder="Email *" required>
+                <input type="tel" id="contact-phone" class="modal-form__input" placeholder="Phone Number (optional)">
+                <textarea id="contact-message" class="modal-form__input modal-form__textarea" placeholder="Message (optional)" rows="4"></textarea>
+                <button type="submit" class="modal-form__submit">Send</button>
+            </form>
+            <div class="divider"><span>or reach out directly</span></div>
+            <div class="modal-links">
+                <a href="mailto:khyonie@proton.me" class="nav__icon tooltip mailto-trigger" data-tooltip="Via E-Mail" aria-label="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+                <a href="https://github.com/Khyonie" class="nav__icon tooltip" data-tooltip="Via GitHub" target="_blank" aria-label="GitHub">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <figure class="figure__">
+            <i class="fa-solid fa-mug-saucer img__" style="color: #c4a7e7; font-size: 32px;"></i><span class="copyright">Hayley Jane Garret <br>&copy; 2026 All Rights Reserved.</span>
+        </figure>
+    </footer>
 
     <script src="./index.js"></script>
 </body>
